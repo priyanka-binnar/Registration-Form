@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><b>FORM</b></title>
+      <link rel="stylesheet" href="./TASK OF THE FORM IN CSS.CSS">
+</head>
+<body >
+    <h1 style="color: blueviolet;"><U><b><center> <p  > STUDENT REGISTRATION FORM</p> </center></b></U></h1>
+                                    
+    <form action="C:\Users\Lenovo\Database">
+        <fieldset style="background-color: blueviolet;">
+        <table cellpadding="10" style="color: white;">
+            
+        <tr><td><label for="Name"><b>FIRST NAME</b></label></td>
+           
+    
+        <td><input type="text" id="Name" Name="name" maxlength="30">
+    <label for="">(max 30 characters a-z and A-Z)</label></td></tr>
+        <br>
+
+        
+
+        <tr><td><label for="Lastname"><b>LAST NAME</b></label></td>
+        <td><input type="text" id="LastName" name="LastName" maxlength="30">
+            <label for="">(max 30 characters a-z and A-Z)</label></td></tr>
+
+        <tr><td><label for="DOB"><b>DATE OF BIRTH</b></label></td>
+        <TD><input type="date">
+       </TD>
+    </tr>
+
+        <tr><td><label for="email"><b>EMAIL ID</b></label></td>
+        <TD><input type="email" id="email" name="e mail"></TD></tr>
+
+        <tr><td><label for="MOB. NO."><b>MOBILE NUMBER</b></label></td>
+        <td><input type="number" id="MOB. NO." name="mob. no." maxlength="10">
+            <label for="">(10 digit number)</label></td></tr>
+
+
+        <tr><td><label for="gender"><b>GENDER</b></label></td>
+            <td><label for="" ><b>MALE</b></label>
+        <input type="radio" name="gender" >
+    <label for=""><b>FEMALE</b></label>
+<input type="radio" name="gender"></td></tr>
+
+
+
+<tr><td><label for="Address"><b>ADDRESS</b></label></td>
+<td><textarea name="my Address" id="" cols="30" rows="0"></textarea></td></tr>
+
+<tr><td><label for="city"><b>CITY</b></label></td>
+<td><input type="text" maxlength="30">
+    <label for="">(max 30 characters a-z and A-Z)</label></td></tr>
+
+<tr><td><label for="pin code "><b>PIN CODE</b></label></td>
+<td><input type="number" id="pin code " name="pin code" maxlength="6">
+    <label for="">(6 digit number)</label></td></tr>
+
+<tr><td><label for="state"><b>STATE</b></label></td>
+<td><input type="text" name="state" id="state" maxlength="30 ">
+    <label for="">(max 30 characters a-z and A-Z)</label></td></tr>
+
+<tr><td><label for="country"><b>COUNTRY</b></label></td>
+<td><input type="text" id="country" name="my country" value="INDIA " readonly></td></tr>
+
+<tr><td><label for="hobbies"><b>HOBBIES</b></label></td>
+<td><label for=""><b>Dancing</b></label>
+<input type="checkbox">
+<label for=""><b>Sketching</b></label>
+<input type="checkbox">
+<label for=""><b>Singing</b></label>
+<input type="checkbox">
+<label for=""><b>Drawing</b></label>
+<input type="checkbox">
+<label for=""><b>Others</b></label>
+<input type="checkbox">
+<input type="text"></td></tr>
+
+<table cellpadding="5" style="color: white;">
+
+<tr><td><label for="Qualification"><B>QUALIFICATION</B></label></td>
+    <td><label for=""><b>SR. NO.</b></label></TD>
+    <td><label for=""><B>EXAMINATION</B></label></td>
+    <td><label for=""><b>BOARD</b></label></td>
+   <td> <label for=""><b>PERCENTAGE</b></label></td>
+    <td><label for=""><b>YEAR OF PASSING</b></label></td>
+</tr>
+
+<tr>
+    <td><label for=""></label></td><td><label for="">1</label></td>
+   <td style="color: white;"> <label for=""><B>CLASS X</B></label></td>
+   <td><input type="text" maxlength="10"></td>
+    <td><input type="number" maxlength="2"></td>
+   <td> <input type="number"></td>
+</tr>
+
+
+<tr>
+    <td><label for=""></label></td><td><label for="">1</label></td>
+   <td> <label for=""><B>CLASS XII</B></label></td>
+    <td><input type="text" maxlength="10"></td>
+    <td><input type="number" maxlength="2"></td>
+   <td> <input type="number"></td>
+</tr>
+
+<tr>
+    <td><label for=""></label></td><td><label for="">1</label></td>
+   <td> <label for=""><B>GRADUATION</B></label></td>
+   <td><input type="text" maxlength="10"></td>
+    <td><input type="number" maxlength="2"></td>
+   <td> <input type="number"></td>
+</tr>
+
+<tr>
+    <td><label for=""></label></td><td><label for="">1</label></td>
+   <td> <label for=""><B>MASTER</B></label></td>
+   <td><input type="text" maxlength="10"></td>
+    <td><input type="number" maxlength="2"></td>
+   <td> <input type="number"></td>
+</tr>
+<tr><td><label for=""></label></td>
+    <td><label for=""></label></td>
+    <td><label for=""></label></td>
+<td> <label for="">( 10 char max)</label></td>
+<td><label for="">(Upto 2 decimal)</label></td></tr>
+
+</table>
+
+
+<table style="color: white;">
+<tr ><td ><label for=""><B>COURSES APPLIED FOR</B></label></td>
+<TD><label for=""><b>B.A.</b></label>
+    <input type="radio" name="Courses applied for"></TD>
+<TD><label for=""><B>B.E.</B></label>
+<input type="radio" name="Courses applied for">
+<label for=""><B>B.COM.</B></label>
+<input type="radio" name="Courses applied for">
+<label for=""><B>BCA</B></label>
+<input type="radio" name="Courses applied for">
+<label for=""><B>BSC</B></label>
+<input type="radio" name="Courses applied for"></TD></tr>
+</table><br>
+
+<tr><td><center><input type="submit">
+    <input type="reset"></center></td></tr>
+
+    </table>
+</fieldset>
+</form>
+</body>
+</html>
